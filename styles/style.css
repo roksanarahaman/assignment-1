@@ -55,7 +55,7 @@ button{
 
 
 button:hover{
-    background-color: rgb(140, 248, 140);
+    background-color: rgb(2, 80, 2);
 }
 
 
@@ -122,4 +122,69 @@ button:hover{
 
 .btn-3:hover{
     background-color: rgb(223, 164, 0);
+}
+
+
+
+/* recent news styles */
+
+.news-1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.news-1-right{
+    margin-left: 10px;
+}
+
+.news-2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* donate style */
+
+.donate-today{
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.donation-options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.donation-options button{
+    flex: 1;
+    margin: 0 5px;
+    padding: 10px;
+    width: 240px;
+    height: 128px;
+    border: 1px rgb(46, 46, 46);
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(192, 192, 192);
+    color: black;
+}
+
+.donation-options button.active{
+    background-color: rgba(198, 228, 214, 1);
+    border-color: azure;
+    color: black;
+}
+
+.donation-options button:hover{
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.other-amount{
+    margin-bottom: 20px;
+}
+
+.other-amount input{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
 }
