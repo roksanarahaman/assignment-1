@@ -188,3 +188,34 @@ button:hover{
     padding: 10px;
     text-align: center;
 }
+
+
+/* newsletter styles */
+
+.newsletter-container{
+    text-align: center;
+    padding: 40px 20px;
+    border-radius: 15px;
+    width: 100%;
+    background-color: rgba(198, 228, 214, 1);
+}
+
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+    gap: 0;
+}
+
+.newsletter-input{
+    width: 70%;
+    padding: 10px;
+    border: 1px;
+    border-radius: 4px 0 0 4px;
+    outline: none;
+}
+
+.newsletter-button{
+    padding: 10px 20px;
+    border-radius: 0 4px 4px 0;
+
+}
