@@ -6,6 +6,10 @@
       "wdth" 100;
   }
 
+  body{
+    background-color: rgba(241, 241, 243, 1);
+  }
+
 
   /* banner styles */
   
@@ -71,16 +75,19 @@ button:hover{
 .cards p{
     text-align: left;
     margin-left: 5px;
+    margin-top: 24px;
+    margin-bottom: 32px;
 }
 
 .card{
     border-radius: 8px;
-    text-align: justify;
+    text-align: left;
     width: 410px;
     height: 325px;
-    border: 1px solid white;
-    padding: 20px;
-    margin: 2px;
+    border: 1px;
+    padding: 32px;
+    margin: auto;
+    gap: 20px;
 }
 
 .digital-card{
@@ -98,6 +105,7 @@ button:hover{
 .card-container{
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 .btn-1{
@@ -131,6 +139,11 @@ button:hover{
 .news-1{
     display: flex;
     justify-content: space-around;
+    background-color: white;
+}
+
+.card-image1{
+    border-radius: 10px;
 }
 
 .news-1-right{
@@ -140,9 +153,13 @@ button:hover{
 .news-2{
     display: flex;
     justify-content: space-around;
+    background-color: white;
+    margin-top: 24px;
 }
 
-
+.card-image2{
+    border-radius: 10px;
+}
 /* donate style */
 
 .donate-today{
